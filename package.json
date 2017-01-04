@@ -1,0 +1,47 @@
+{
+  "name": "weather-stats",
+  "version": "1.0.0",
+  "description": "Live updating weather server and companion app",
+  "main": "weather-server.js",
+  "engines": {
+    "node": "6.1.0",
+    "npm": "3.8.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrantejake/weather-stats.git"
+  },
+  "author": "",
+  "contributors": [
+    "Jake Ferrante"
+  ],
+  "license": "ISC",
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/ferrantejake/weather-stats/issues"
+  },
+  "homepage": "https://github.com/ferrantejake/weather-stats#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-param": "^1.0.3",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-tslint": "^7.0.1",
+    "gulp-typescript": "^3.1.3",
+    "merge2": "^1.0.3",
+    "tslint": "^4.2.0",
+    "typings": "^2.1.0"
+  }
+}
