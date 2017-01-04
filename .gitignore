@@ -1,6 +1,5 @@
 node_modules/
-projects/**/node_modules
-projects/lib
+app/lib
 
 ### For Clang Engine
 .clang-format
