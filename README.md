@@ -7,7 +7,7 @@ This application that will be reaching out to weather services
 call every 20 minutes giving a status update of the current weather.
 
 To do this, the following will be required:
-- Create a HTTP server
+- Setup a timer
 - Establish a connection with a weather service
 - Translate and handle data as it comes in
 - Make webhooks calls every 20 minutes to an online endpoint or when
