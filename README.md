@@ -13,7 +13,7 @@ To do this, the following will be required:
 - Make webhooks calls every 20 minutes to an online endpoint or when
     there is a drastic change in weather.
 
-## How does it work? (using Grunt..)
+## How does it work? (using Gulp..)
 They way I have set this up is very similar to the current architecture
 that is used at Droplit, using TypeScript and Gulp to lint and build the
 project, respectively. Gulp is the automation that many software development
