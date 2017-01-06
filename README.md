@@ -2,7 +2,7 @@
 NodeJS weather app
 
 ## What should this application do?
-This application that will be reaching out to weather services
+TWeather-stats should be reaching out to external weather services
 (provided via npm modules or using HTTP requests) and make a webhook
 call every 20 minutes giving a status update of the current weather.
 
@@ -68,3 +68,18 @@ the build tool chain and how grunt does it's automation, as well as learning
 how to build automated tool chains with this, the Gulp git page is helpful.
 
 [https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+
+## Bonus
+### Connect.io
+
+https://getconnect.io/
+
+Connect.io is a data visualization tool, and they have been bugging me to 
+integrate their services with my services for years at this point. If you add
+the connect.io module and send them the weather data, you will be able to see
+the weather metrics in any form your desire, as you can modify the query which
+creates the visualization. I'm not going to leave much information here other
+than the note that adding this to the projects willl solidify your understanding
+of how NPM works with external modules, and how to look at an external API and 
+integrate it into your project - two skills any ~~Node developer~~ developer needs
+to acquire to be competent.
